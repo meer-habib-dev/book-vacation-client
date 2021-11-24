@@ -1,0 +1,47 @@
+.single-spot-container {
+  position: relative;
+  cursor: pointer;
+  max-width: 538.078px;
+  max-height: 450px;
+  background-color: #ff9f1c;
+  overflow: hidden;
+}
+
+.single-spot-container:hover .content-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s ease;
+  z-index: 1;
+}
+.single-spot-container:hover {
+  transform: translateY(5px);
+  transition: all 0.4s ease;
+}
+.single-spot-container img {
+  max-width: 538.078px;
+  height: 358.7px;
+}
+p.single-content-title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-90px);
+  opacity: 0;
+  z-index: 100;
+}
+.single-spot-container:hover p.single-content-title {
+  opacity: 1;
+  z-index: 100;
+  transition: all 0.8s ease;
+}
+
+@media (max-width: 640px) {
+  /* .single-spot-container img {
+    width: auto;
+    height: 358.7px;
+  } */
+}

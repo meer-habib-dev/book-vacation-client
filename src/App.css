@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap");
+.App {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Slab", serif;
+  transition: all 0.4s ease;
+}
+
+.yellow {
+  color: #ff9f1c;
+}
+.bg-yellow {
+  background-color: #ff9f1c;
+}
+.border-hover {
+  border: 1px solid #ff9f1c;
+}
+.transition {
+  transition: all 0.4s ease;
+}
